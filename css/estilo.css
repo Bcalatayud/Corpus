@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.apps {
+	position: fixed;
+	/*right: 100px; */
+	top: 4px; 
+	z-index: 2000; 
+}
+
+
+	.apps ul {
+		list-style: none;
+	}
+
+	.apps ul li a {
+		display: inline-block;
+		color:#fff;
+		background: ;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.apps ul li .app1 {background:#3b5998;} 
+	.apps ul li .app2 {background: #00abf0;}
+	.apps ul li .app3 {background: #d95232;}
+	.apps ul li .app4 {background: #ae181f;}
+	.apps ul li .twitter{background: #666666;}
+
+	.apps ul li a:hover {
+		background: orange; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		 /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+		padding: 30px;
+	}
