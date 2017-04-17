@@ -2,8 +2,9 @@
 #toggle {
   display: block;
   width: 28px;
-  height: 30px;
+  height: 40px;
   margin: 30px auto 10px;
+  z-index: 1000;
 }
 
 #toggle span:after,
@@ -12,6 +13,7 @@
   position: absolute;
   left: 0;
   top: -9px;
+  z-index: 1000;
 }
 #toggle span:after{
   top: 9px;
@@ -19,6 +21,7 @@
 #toggle span {
   position: relative;
   display: block;
+  z-index: 1000;
 }
 
 #toggle span,
@@ -30,6 +33,7 @@
   transition: all 0.3s;
   backface-visibility: hidden;
   border-radius: 2px;
+  z-index: 1000;
 }
 
 /* on activation */
@@ -44,7 +48,8 @@
 }
 #toggle.on + #menu {
   opacity: 1;
-  visibility: visible;
+  visibility: visible; 
+  z-index: 900;
 }
 
 
@@ -54,6 +59,7 @@
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
+  z-index: 1000;
 }
 
 #toggle2 span:after,
@@ -80,6 +86,7 @@
   transition: all 0.3s;
   backface-visibility: hidden;
   border-radius: 2px;
+  z-index: 1000;
 }
 
 /* on activation */
@@ -95,6 +102,7 @@
 #toggle2.on + #menu2 {
   opacity: 1;
   visibility: visible;
+  z-index: 900;
 }
 
 

@@ -33,7 +33,6 @@
 	.apps ul li .app2 {background: #00abf0;}
 	.apps ul li .app3 {background: #d95232;}
 	.apps ul li .app4 {background: #ae181f;}
-	.apps ul li .twitter{background: #666666;}
 
 	.apps ul li a:hover {
 		background: orange; /* Cambiamos el fondo cuando el usuario pase el mouse */
