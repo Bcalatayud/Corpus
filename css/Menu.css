@@ -116,7 +116,7 @@
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
-  background: white;
+  background: red;
   box-shadow: 0 1px 8px rgba(0,0,0,0.05);
   /* just for this demo */
   opacity: 0;
@@ -126,7 +126,7 @@
 #menu:after {
   position: absolute;
   top: -15px;
-  left: 95px;
+  left: 85px;
   content: "";
   display: block;
   border-left: 15px solid transparent;
@@ -153,7 +153,7 @@
 #menu2 :after {
   position: absolute;
   top: -15px;
-  left: 95px;
+  left: 85px;
   content: "";
   display: block;
   border-left: 15px solid transparent;
@@ -170,15 +170,24 @@ li a {
   padding: 5px;
   color: #888;
   text-decoration: none;
-  transition: all .2s;
+  /*transition: all .2s;*/
 }
 li a:hover,
 li a:focus {
-  background: #1ABC9C;
+  background: #000;
   color: #fff;
 }
 
 
+
+
 /* demo styles */
 body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
-p, p a { font-size: 12px;text-align: center; color: #888; }
+p, p a { font-size: 12px; text-align: center; color: #888; }
+
+table,th{
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	align-items: center;
+}
